@@ -1,4 +1,4 @@
-(defproject kibu/pushy "0.3.8"
+(defproject kibu/pushy "0.3.9-SNAPSHOT"
   :description "HTML5 pushState for Clojurescript"
   :url "https://github.com/kibu-australia/pushy"
   :license {:name "Eclipse Public License"
@@ -16,7 +16,7 @@
   :source-paths ["src"]
 
   :profiles {:dev {:dependencies [[secretary "1.2.1"]]
-                   :plugins [[lein-cljsbuild "1.1.5"]
+                   :plugins [[lein-cljsbuild "1.1.7"]
                              [com.cemerick/clojurescript.test "0.3.3"]]
 
                    :cljsbuild
